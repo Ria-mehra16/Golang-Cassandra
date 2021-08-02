@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/adding"
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/http/rest"
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/reading"
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/storage"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/adding"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/http/rest"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/reading"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/storage"
 )
 
 func main() {

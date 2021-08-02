@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/reading"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/reading"
 )
 
 func welcomeHandler() func(w http.ResponseWriter, r *http.Request) {

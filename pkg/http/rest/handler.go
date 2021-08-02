@@ -1,8 +1,8 @@
 package rest
 
 import (
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/adding"
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/reading"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/adding"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/reading"
 	"github.com/gorilla/mux"
 )
 
