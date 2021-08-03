@@ -1,4 +1,4 @@
-package adding
+package deleting
 
 type Repository interface {
 	DeleteCandy(Candy) (string, error)
