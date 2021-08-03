@@ -2,11 +2,12 @@ package rest
 
 import (
 	"github.com/Ria-mehra16/Golang-Cassandra/pkg/adding"
+	"github.com/Ria-mehra16/Golang-Cassandra/pkg/deleting"
 	"github.com/Ria-mehra16/Golang-Cassandra/pkg/reading"
 	"github.com/gorilla/mux"
 )
 
-func InitHandlers(rs reading.Service, as adding.Service) *mux.Router {
+func InitHandlers(rs reading.Service, as adding.Service, dl deleting.Service) *mux.Router {
 
 	router := mux.NewRouter()
 
@@ -15,5 +16,6 @@ func InitHandlers(rs reading.Service, as adding.Service) *mux.Router {
 
 	//Adding
 	router.HandleFunc("/api/candy", addCandy(as)).Methods("POST")
+	router.HandleFunc("/api/deletecandy", deleteCandy(dl)).Methods("DELETE")
 	return router
 }
